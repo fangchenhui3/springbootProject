@@ -23,6 +23,9 @@ public class TemplateTestController {
     @RequestMapping("/test2")
     public String templateTest(ModelMap map){
 
+
+
+
         map.addAttribute("host","http://www.imyzone.com");
 
         return "index";
