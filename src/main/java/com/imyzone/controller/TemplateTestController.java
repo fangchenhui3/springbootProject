@@ -18,6 +18,8 @@ import javax.servlet.http.HttpServletRequest;
  **/
 @Controller
 public class TemplateTestController {
+
+
     @RequestMapping("/test2")
     public String templateTest(ModelMap map){
         map.addAttribute("host","http://www.imyzone.com");
