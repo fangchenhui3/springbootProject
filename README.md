@@ -1,2 +1,0 @@
-# springbootProject
-springboot+mybaits+Thymeleaf
