@@ -24,6 +24,7 @@ public class TemplateTestController {
     public String templateTest(ModelMap map){
 
         map.addAttribute("host","http://www.imyzone.com");
+
         return "index";
     }
 }
